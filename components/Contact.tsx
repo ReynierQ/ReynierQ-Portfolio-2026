@@ -9,7 +9,7 @@ export default function Contact() {
       <div className="max-w-3xl mx-auto text-center">
         <div ref={ref} className={`reveal ${visible ? "visible" : ""}`}>
           <p className="font-mono text-[var(--accent)] text-sm mb-3">
-            06. contact
+            07. contact
           </p>
           <h2 className="font-display text-4xl md:text-5xl font-700 mb-5">
             Get in <span className="gradient-text">touch</span>

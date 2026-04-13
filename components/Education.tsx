@@ -40,7 +40,7 @@ export default function Education() {
       <div className="max-w-6xl mx-auto">
         <div ref={ref} className={`reveal ${visible ? "visible" : ""}`}>
           <p className="font-mono text-[var(--accent)] text-sm mb-3">
-            04. education
+            05. education
           </p>
           <h2 className="font-display text-4xl md:text-5xl font-700 mb-12">
             Academic <span className="gradient-text">background</span>

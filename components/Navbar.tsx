@@ -6,6 +6,7 @@ const links = [
   { label: "Intro", href: "#introduction" },
   { label: "About", href: "#about" },
   { label: "Experience", href: "#experience" },
+  { label: "Projects", href: "#projects" },
   { label: "Education", href: "#education" },
   { label: "Skills", href: "#skills" },
   { label: "Contact", href: "#contact" },
@@ -51,18 +52,18 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#" className="font-display font-800 text-xl tracking-tight">
           <span className="gradient-text">RQ</span>
-          <span className="text-[var(--muted)] text-sm font-mono ml-2">.dev</span>
+          <span className="text-[var(--text)] text-sm font-mono ml-2">.dev</span>
         </a>
 
         <div className="hidden md:flex items-center gap-6">
           {links.map((link) => (
             <a key={link.href} href={link.href}
-              className="text-[var(--muted)] hover:text-[var(--accent)] text-sm font-body transition-colors duration-200">
+              className="text-[var(--text)] hover:text-[var(--accent)] text-sm font-body transition-colors duration-200">
               {link.label}
             </a>
           ))}
           <button onClick={toggle} aria-label="Toggle theme"
-            className="p-2 rounded-lg border border-[var(--border)] text-[var(--muted)] hover:text-[var(--accent)] hover:border-[var(--accent)] transition-all duration-200">
+            className="p-2 rounded-lg border border-[var(--border)] text-[var(--text)] hover:text-[var(--accent)] hover:border-[var(--accent)] transition-all duration-200">
             {theme === "dark" ? <SunIcon /> : <MoonIcon />}
           </button>
           <a href="#contact"
@@ -91,7 +92,7 @@ export default function Navbar() {
         <div className="md:hidden bg-[var(--surface)] border-b border-[var(--border)] px-6 py-4 flex flex-col gap-4">
           {links.map((link) => (
             <a key={link.href} href={link.href}
-              className="text-[var(--muted)] hover:text-[var(--accent)] text-sm font-body transition-colors"
+              className="text-[var(--text)] hover:text-[var(--accent)] text-sm font-body transition-colors"
               onClick={() => setMenuOpen(false)}>
               {link.label}
             </a>

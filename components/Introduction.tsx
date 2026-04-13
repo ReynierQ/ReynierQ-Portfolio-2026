@@ -23,7 +23,7 @@ export default function Introduction() {
         <div ref={ref} className={`reveal ${visible ? "visible" : ""}`}>
           {/* Label */}
           <p className="font-mono text-[var(--accent)] text-sm mb-3">
-            00. introduction
+            01. introduction
           </p>
 
           {/* Headline */}

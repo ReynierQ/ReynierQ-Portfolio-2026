@@ -49,52 +49,37 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
         {/* Badge */}
-        <div
-          className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-[var(--border)] bg-[var(--surface)] text-[var(--muted)] text-xs font-mono mb-8"
-          style={{ animation: "fadeUp 0.5s ease 0.1s forwards", opacity: 0 }}
-        >
+        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-[var(--border)] bg-[var(--surface)] text-[var(--muted)] text-xs font-mono mb-8 animate-fade-up [animation-delay:0.1s] [animation-fill-mode:both]">
+
           <span className="w-2 h-2 rounded-full bg-[var(--accent-2)] animate-pulse" />
           Available for opportunities
         </div>
 
         {/* Name */}
-        <h1
-          className="font-display text-5xl md:text-7xl lg:text-8xl font-800 tracking-tight mb-4 leading-none"
-          style={{ animation: "fadeUp 0.6s ease 0.2s forwards", opacity: 0 }}
-        >
+        <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-800 tracking-tight mb-4 leading-none animate-fade-up [animation-delay:0.2s] [animation-fill-mode:both]">
           <span className="text-[var(--text)]">Reynier</span>
           <br />
           <span className="gradient-text glow-text">Querijero</span>
         </h1>
 
         {/* Typewriter role */}
-        <div
-          className="h-10 flex items-center justify-center mb-6"
-          style={{ animation: "fadeUp 0.6s ease 0.35s forwards", opacity: 0 }}
-        >
+        <div className="h-10 flex items-center justify-center mb-6 animate-fade-up [animation-delay:0.35s] [animation-fill-mode:both]">
           <p className="font-mono text-lg md:text-xl text-[var(--accent)]">
             {displayed}
             <span className="animate-blink">|</span>
           </p>
         </div>
 
-        {/* Tagline */}
-        <p
-          className="text-[var(--muted)] text-base md:text-lg max-w-xl mx-auto leading-relaxed mb-10"
-          style={{ animation: "fadeUp 0.6s ease 0.5s forwards", opacity: 0 }}
-        >
+        <p className="text-[var(--muted)] text-base md:text-lg max-w-2xl mx-auto leading-relaxed mb-16 animate-fade-up [animation-delay:0.5s] [animation-fill-mode:both]">
           Building performant web experiences from backend APIs to pixel-perfect
           frontends. Based in{" "}
           <span className="text-[var(--text)]">Rodriguez, Rizal 🇵🇭</span>
         </p>
 
         {/* CTAs */}
-        <div
-          className="flex flex-wrap gap-4 justify-center"
-          style={{ animation: "fadeUp 0.6s ease 0.65s forwards", opacity: 0 }}
-        >
+        <div className="flex flex-wrap gap-4 justify-center animate-fade-up [animation-delay:0.65s] [animation-fill-mode:both]">
           <a
-            href="#experience"
+            href="#projects"
             className="px-8 py-3 rounded bg-[var(--accent)] text-white font-mono text-sm hover:opacity-90 transition-opacity glow"
           >
             View my work
@@ -110,10 +95,7 @@ export default function Hero() {
         </div>
 
         {/* Scroll indicator */}
-        <div
-          className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
-          style={{ animation: "fadeIn 1s ease 1.2s forwards", opacity: 0 }}
-        >
+        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-fade-in [animation-delay:1.2s] [animation-fill-mode:both]">
           <span className="text-[var(--muted)] text-xs font-mono">scroll</span>
           <div className="w-px h-10 bg-gradient-to-b from-[var(--accent)] to-transparent" />
         </div>
