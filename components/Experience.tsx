@@ -68,7 +68,7 @@ export default function Experience() {
                       : "text-[var(--muted)] hover:text-[var(--text)] border-l-2 border-[var(--border)]"
                   }`}
                 >
-                  {job.company.split(" ")[0]}
+                  {job.company.split(" ").slice(0, 2).join(" ")}
                 </button>
               ))}
             </div>

@@ -25,7 +25,7 @@ const categories = [
   {
     title: "Tooling",
     icon: "◐",
-    skills: ["Git", "Figma", "Adobe XD", "Adobe Photoshop", "Power Automate", "Power Apps"],
+    skills: ["Git", "Figma", "AI Tools", "Adobe XD", "Adobe Photoshop", "Power Automate", "Power Apps"],
   },
   {
     title: "Soft Skills",

@@ -5,7 +5,7 @@ const stats = [
   { value: "2+", label: "Years Experience" },
   { value: "3", label: "Companies" },
   { value: "10+", label: "Tech Stack" },
-  { value: "BS IT", label: "Degree" },
+  { value: "BSIT - MWA", label: "Degree" },
 ];
 
 export default function About() {

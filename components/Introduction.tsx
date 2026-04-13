@@ -5,7 +5,7 @@ const highlights = [
   { icon: "⚡", label: "Full-Stack Dev", desc: "End-to-end web apps from DB to UI" },
   { icon: "🛍️", label: "Shopify Expert", desc: "Custom themes, apps & flows" },
   { icon: "🔗", label: "API Architect", desc: "REST, WebSocket, real-time systems" },
-  { icon: "🎨", label: "UI Craftsman", desc: "Pixel-perfect, performant interfaces" },
+  { icon: "🔍", label: "Curious Learner", desc: "Always exploring new tech and ideas" },
 ];
 
 export default function Introduction() {
@@ -42,7 +42,7 @@ export default function Introduction() {
               <p className="text-[var(--muted)] leading-relaxed mb-4">
                 I graduated with a{" "}
                 <span className="text-[var(--text)]">
-                  Bachelor of Science in Information Technology
+                  Bachelor of Science in Information Technology specialized in Mobile and Web Application
                 </span>{" "}
                 majoring in Mobile and Web Application from National University.
                 Since then, I&apos;ve worked across startups and product companies,
@@ -65,9 +65,9 @@ export default function Introduction() {
               {[
                 { label: "📍 Location", value: "Rodriguez, Rizal, PH" },
                 { label: "📧 Email", value: "reynierquerijero@gmail.com" },
-                { label: "🔗 LinkedIn", value: "reynier-querijero" },
-                { label: "💻 GitHub", value: "ReynierQ" },
-                { label: "🎓 Degree", value: "BS IT — National University" },
+                { label: "🔗 LinkedIn", value: "https://ph.linkedin.com/in/reynier-querijero" },
+                { label: "💻 GitHub", value: "https://github.com/ReynierQ" },
+                { label: "🎓 Degree", value: "BSIT - MWA — National University" },
                 { label: "📱 Phone", value: "+63 977 237 4694" },
               ].map((item) => (
                 <div

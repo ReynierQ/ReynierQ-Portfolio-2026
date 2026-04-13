@@ -6,9 +6,9 @@ export default function Footer() {
           Designed & built by{" "}
           <span className="text-[var(--accent)]">Reynier Querijero</span>
         </p>
-        <p className="text-[var(--muted)] text-xs font-mono">
+        {/* <p className="text-[var(--muted)] text-xs font-mono">
           Built with Next.js & Tailwind CSS
-        </p>
+        </p> */}
       </div>
     </footer>
   );
